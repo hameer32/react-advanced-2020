@@ -1,10 +1,11 @@
-import React from 'react'
+import React from "react";
+import Error from "./tutorial/1-useState/setup/5-useState-counter";
 function App() {
   return (
-    <div className='container'>
-      <h2>Advanced Tutorial</h2>
+    <div className="container">
+      <Error></Error>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
